@@ -1,0 +1,32 @@
+GET http://localhost:3000/todos/?category=LEARNING&priority=HIGH
+
+###
+
+GET http://localhost:3000/todos/12
+
+###
+GET http://localhost:3000/agenda/?date=2021-07-01
+
+###
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+  "id": 12,
+  "todo": "Come on",
+  "priority": "LOW",
+  "status": "TO DO",
+  "category": "WORK",
+  "dueDate": "2021-07-01"
+}
+
+###
+PUT http://localhost:3000/todos/7/
+Content-Type: application/json
+
+{
+    "priority": "HIGH"
+}
+
+###
+DELETE http://localhost:3000/todos/6
