@@ -435,10 +435,3 @@ Deletes a todo from the todo table based on the todo ID
 Todo Deleted
 ```
 
-<br/>
-
-Use `npm install` to install the packages.
-
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
