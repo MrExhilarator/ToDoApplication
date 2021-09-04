@@ -2,7 +2,7 @@
 
 Given an `app.js` file and database file `todoApplication.db` with a table `todo`.
 
-Write APIs to perform operations on the table `todo`, with the following columns,
+APIs to perform operations on the table `todo`, with the following columns,
 
 **Todo Table**
 
@@ -17,7 +17,7 @@ Write APIs to perform operations on the table `todo`, with the following columns
 
 <MultiLineNote>
   
-  - Replace the spaces in URL with `%20`.
+  - Replacing the spaces in URL with `%20`.
   - Possible values for `priority` are `HIGH`, `MEDIUM`, and `LOW`.
   - Possible values for `status` are `TO DO`, `IN PROGRESS`, and `DONE`.
   - Possible values for `category` are `WORK`, `HOME`, and `LEARNING`.
@@ -27,7 +27,7 @@ Write APIs to perform operations on the table `todo`, with the following columns
 
 <MultiLineQuickTip>
 
-Use `date-fns` format function to format the date. Refer to the documentation [link](https://date-fns.org/v2.19.0/docs/Getting-Started) for the usage of `format` function.
+Using `date-fns` format function to format the date. Documentation [link](https://date-fns.org/v2.19.0/docs/Getting-Started) for the usage of `format` function.
 </MultiLineQuickTip>
 
 ### Invalid scenarios for all APIs
